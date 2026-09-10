@@ -1,0 +1,68 @@
+import type { SkillNode } from '@/types/domain';
+
+export const MOCK_NODES: SkillNode[] = [
+  {
+    id: 'node-1',
+    title: 'Morning Anchor',
+    description: 'Complete a focused 10-minute morning ritual.',
+    order: 1,
+    state: 'completed',
+    xpReward: 40,
+  },
+  {
+    id: 'node-2',
+    title: 'Deep Work Sprint',
+    description: 'Ship 45 minutes of uninterrupted deep work.',
+    order: 2,
+    state: 'completed',
+    xpReward: 60,
+  },
+  {
+    id: 'node-3',
+    title: 'Body Reset',
+    description: 'Move for 20 minutes — walk, stretch, or train.',
+    order: 3,
+    state: 'completed',
+    xpReward: 50,
+  },
+  {
+    id: 'node-4',
+    title: 'Proof of Craft',
+    description: 'Publish one tangible artifact from today’s work.',
+    order: 4,
+    state: 'active',
+    xpReward: 80,
+  },
+  {
+    id: 'node-5',
+    title: 'Social Signal',
+    description: 'Share progress with one accountability partner.',
+    order: 5,
+    state: 'locked',
+    xpReward: 55,
+  },
+  {
+    id: 'node-6',
+    title: 'Reflection Loop',
+    description: 'Write a 5-line retro on what moved the needle.',
+    order: 6,
+    state: 'locked',
+    xpReward: 45,
+  },
+  {
+    id: 'node-7',
+    title: 'Streak Guardian',
+    description: 'Protect your streak with a same-day proof.',
+    order: 7,
+    state: 'locked',
+    xpReward: 70,
+  },
+  {
+    id: 'node-8',
+    title: 'Architect Milestone',
+    description: 'Complete a multi-day project checkpoint.',
+    order: 8,
+    state: 'locked',
+    xpReward: 120,
+  },
+];
